@@ -4,8 +4,8 @@ import { FaPlus } from "react-icons/fa";
 
 export default function HeaderHome() {
   return (
-    <section className="w-full min-h-[800px] bg-[url('/img/headerHome.jpg')] bg-no-repeat bg-contain bg-right">
-      <div className="relative h-[600px] w-fit flex flex-col justify-end text-[#12116e] ml-32 gap-3">
+    <section className="w-full min-h-[700px] bg-[url('/img/headerHome.jpg')] bg-no-repeat bg-contain bg-right">
+      <div className="relative h-[500px] w-fit flex flex-col justify-end text-[#12116e] ml-32 gap-3">
         <Fade direction="up" triggerOnce>
           <h1 className="text-7xl font-extrabold">
             Sociedad <br /> Venezolana
