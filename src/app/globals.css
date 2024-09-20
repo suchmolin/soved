@@ -28,4 +28,46 @@
 .custom-shape-divider-top-1726626453 .shape-fill {
   fill: #12116E;
 }
+
    
+
+.custom-shape-divider-top-1726798444 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1726798444 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 24px;
+}
+
+.custom-shape-divider-top-1726798444 .shape-fill {
+  fill: #E9EFF9;
+}
+
+.custom-shape-divider-top-1726799180 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1726799180 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 24px;
+}
+
+.custom-shape-divider-top-1726799180 .shape-fill {
+  fill: #12116D;
+}

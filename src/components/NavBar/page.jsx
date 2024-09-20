@@ -35,7 +35,7 @@ export default function NavBar() {
         </div>
       </nav>
       <div className="relative h-[30px] w-full -mt-1">
-        <div class="custom-shape-divider-top-1726626453">
+        <div className="custom-shape-divider-top-1726626453">
           <svg
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +44,7 @@ export default function NavBar() {
           >
             <path
               d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z"
-              class="shape-fill"
+              className="shape-fill"
             ></path>
           </svg>
         </div>
