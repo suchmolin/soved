@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function JuntaHome() {
   return (
-    <div className="relative w-full h-[650px] flex justify-center items-center bg-[#12116d] pb-20">
+    <div className="relative w-full h-[650px] flex justify-center items-center bg-[#1630BE] pb-20">
       <div class="custom-shape-divider-top-1726798444">
         <svg
           data-name="Layer 1"
@@ -42,7 +42,7 @@ export default function JuntaHome() {
           <div className="h-[60px] flex items-end">
             <a
               href="#"
-              className="py-3 px-7 rounded-full bg-white shadow-md shadow-red-400 text-[#12116e] text-base w-fit hover:shadow-lg hover:mb-3 hover:bg-[#00b1ab]/90 transition-all duration-300 font-bold"
+              className="py-3 px-7 rounded-full bg-white shadow-md shadow-red-400 text-[#1630BE] text-base w-fit hover:shadow-lg hover:mb-3 hover:bg-[#00b1ab]/90 transition-all duration-300 font-bold"
             >
               MÁS INFORMACION SOBRE LA JUNTA DIRECTIVA 2022-2024
             </a>

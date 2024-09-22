@@ -17,7 +17,7 @@ export default function HagaseMienbro() {
       </div>
       <div className="w-10/12 flex justify-center items-center">
         <div className="w-6/12 flex flex-col justify-center">
-          <h2 className="text-[#12116e] text-5xl font-bold pl-10 pr-36 mb-20">
+          <h2 className="text-[#1630BE] text-5xl font-bold pl-10 pr-36 mb-20">
             Hágase miembro de la SVG y disfrute de sus beneficios
           </h2>
           <p className="text-xl pr-20 pl-10 text-gray-600 text-justify mb-10">
@@ -28,23 +28,23 @@ export default function HagaseMienbro() {
           <ul className="text-xl text-gray-600 pl-10 mb-10">
             <li className="flex gap-2 items-center">
               {" "}
-              <FaCheck className="text-[#12116e]" /> Artículos de interés
+              <FaCheck className="text-[#1630BE]" /> Artículos de interés
             </li>
             <li className="flex gap-2 items-center">
               {" "}
-              <FaCheck className="text-[#12116e]" />
+              <FaCheck className="text-[#1630BE]" />
               Descuentos especiales para eventos
             </li>
             <li className="flex gap-2 items-center">
               {" "}
-              <FaCheck className="text-[#12116e]" />
+              <FaCheck className="text-[#1630BE]" />
               Descuentos especiales para eventos
             </li>
           </ul>
           <div className="h-[60px] flex items-end pl-10">
             <a
               href="#"
-              className="py-3 px-7 rounded-full bg-[#12116e] text-white text-base w-fit hover:shadow-xl hover:mb-3 hover:bg-[#12116e]/90 transition-all duration-300"
+              className="py-3 px-7 rounded-full bg-[#1630BE] text-white text-base w-fit hover:shadow-xl hover:mb-3 hover:bg-[#1630BE]/90 transition-all duration-300"
             >
               MÁS INFORMACIÓN SOBRE MEMBRESÍAS
             </a>

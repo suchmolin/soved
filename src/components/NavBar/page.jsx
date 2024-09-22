@@ -6,10 +6,10 @@ import { FaYoutube } from "react-icons/fa";
 export default function NavBar() {
   return (
     <>
-      <nav className="relative w-full h-[80px] flex justify-between items-center shadow-md bg-[#12116e] text-white">
-        <p className="flex gap-2 px-10">
+      <nav className="relative w-full h-[80px] flex justify-between items-center shadow-md bg-[#1630BE] text-white">
+        <p className="flex gap-2 px-10 items-center">
           <CiMail />
-          infosovegastro@gmail.com ☎ (0212) 9916757 – (0212) 9912660{" "}
+          info@jpyeventos.com ☎ 0212 - 7611939 – 0424 - 2600460{" "}
         </p>
         <ul className="h-full flex gap-7 justify-center items-center px-10 text-lg pt-1">
           <li className="hover:bg-[#00b1ab] h-full flex items-center px-4">
@@ -26,10 +26,16 @@ export default function NavBar() {
           </li>
         </ul>
         <div className="flex gap-5 px-10 text-2xl">
-          <a href="#" className="hover:scale-110 transition-all duration-300">
+          <a
+            href="https://www.instagram.com/soved_oficial?igsh=MTR6YnRyZWVrdGx6eQ=="
+            className="hover:scale-110 transition-all duration-300"
+          >
             <IoLogoInstagram />
           </a>
-          <a href="#" className="hover:scale-110 transition-all duration-300">
+          <a
+            href="https://www.youtube.com/channel/UCW24NwkA_8_8VJYxgYCLV1w"
+            className="hover:scale-110 transition-all duration-300"
+          >
             <FaYoutube />
           </a>
         </div>

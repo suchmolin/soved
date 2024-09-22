@@ -15,7 +15,7 @@ export default function Conozcamas() {
           </div>
         </div>
         <div className="w-7/12 flex flex-col justify-center pl-20 pr-32">
-          <h2 className="text-4xl text-[#12116e] font-bold mb-10">
+          <h2 className="text-4xl text-[#1630BE] font-bold mb-10">
             Conozca más sobre nosotros
           </h2>
           <p className="text-lg text-justify mb-10">
@@ -29,7 +29,7 @@ export default function Conozcamas() {
           <div className="h-[60px] flex items-end">
             <a
               href="#"
-              className="py-3 px-7 rounded-full bg-[#12116e] text-white text-xl w-fit hover:shadow-xl hover:mb-3 hover:bg-[#12116e]/90 transition-all duration-300"
+              className="py-3 px-7 rounded-full bg-[#1630BE] text-white text-xl w-fit hover:shadow-xl hover:mb-3 hover:bg-[#1630BE]/90 transition-all duration-300"
             >
               SABER MÁS
             </a>
