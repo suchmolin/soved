@@ -1,4 +1,6 @@
+"use client";
 import Image from "next/image";
+import { Fade } from "react-awesome-reveal";
 
 export default function Conozcamas() {
   return (
@@ -15,17 +17,22 @@ export default function Conozcamas() {
           </div>
         </div>
         <div className="md:w-7/12 flex flex-col justify-center md:pl-20 mt-10 md:mt-0">
-          <h2 className="text-4xl text-[#1630BE] font-bold mb-10 text-center md:text-start">
-            Conozca más sobre nosotros
-          </h2>
-          <p className="sm:text-lg text-justify mb-10">
-            La Sociedad Venezolana de Gastroenterología es una Asociación Médica
-            Científica sin fines de lucro, dedicada a la promoción y difusión de
-            la Gastroenterología dentro de un marco de compromiso social y de
-            responsabilidad en el desarrollo de la especialidad, con impacto en
-            la salud de la comunidad, que propicia el intercambio con
-            instituciones Nacionales e Internacionales.
-          </p>
+          <Fade triggerOnce direction="up">
+            <h2 className="text-4xl text-[#1630BE] font-bold mb-10 text-center md:text-start">
+              Conozca más sobre nosotros
+            </h2>
+          </Fade>
+
+          <Fade triggerOnce direction="up">
+            <p className="sm:text-lg text-justify mb-10">
+              La Sociedad Venezolana de Gastroenterología es una Asociación
+              Médica Científica sin fines de lucro, dedicada a la promoción y
+              difusión de la Gastroenterología dentro de un marco de compromiso
+              social y de responsabilidad en el desarrollo de la especialidad,
+              con impacto en la salud de la comunidad, que propicia el
+              intercambio con instituciones Nacionales e Internacionales.
+            </p>
+          </Fade>
           <div className="h-[60px] flex items-end justify-center md:justify-start">
             <a
               href="#"

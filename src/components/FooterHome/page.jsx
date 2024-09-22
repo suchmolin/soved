@@ -6,7 +6,7 @@ export default function FooterHome() {
       </h2>
       <h3 className="text-xs sm:text-xl flex gap-2">
         Desarrollado por:{" "}
-        <a href="#" className="hover:underline">
+        <a href="#" className="hover:underline text-[#00b1ab] font-bold">
           YouSeven
         </a>
       </h3>

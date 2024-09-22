@@ -42,6 +42,7 @@ export default function NavBar() {
               <Dropdown.Item className="text-white">Contacto</Dropdown.Item>
             </Dropdown>
           </div>
+          {/*
           <a
             href="https://www.instagram.com/soved_oficial?igsh=MTR6YnRyZWVrdGx6eQ=="
             className="hover:scale-110 transition-all duration-300"
@@ -54,6 +55,7 @@ export default function NavBar() {
           >
             <FaYoutube />
           </a>
+          */}
         </div>
       </nav>
       <div className="relative h-[30px] w-full -mt-1">

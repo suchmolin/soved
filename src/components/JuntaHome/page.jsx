@@ -1,9 +1,11 @@
+"use client";
 import Image from "next/image";
+import { Fade } from "react-awesome-reveal";
 
 export default function JuntaHome() {
   return (
     <div className="relative w-full md:h-[650px] flex justify-center items-center bg-[#1630BE] pb-20">
-      <div class="custom-shape-divider-top-1726798444">
+      <div className="custom-shape-divider-top-1726798444">
         <svg
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"
@@ -12,7 +14,7 @@ export default function JuntaHome() {
         >
           <path
             d="M0,0V7.23C0,65.52,268.63,112.77,600,112.77S1200,65.52,1200,7.23V0Z"
-            class="shape-fill"
+            className="shape-fill"
           ></path>
         </svg>
       </div>
@@ -28,17 +30,21 @@ export default function JuntaHome() {
           </div>
         </div>
         <div className="md:w-7/12 h-full flex flex-col justify-center items-center pt-10 md:pt-20">
-          <h2 className="text-3xl lg:text-4xl text-white font-bold tracking-widest mb-10 text-center md:text-start">
-            Junta directiva 2022-2024
-          </h2>
-          <p className="text-lg text-white text-justify md:px-5 lg:px-20 mb-10">
-            La Sociedad Venezolana de Gastroenterología está liderada por un
-            equipo de profesionales comprometidos con el avance de la
-            especialidad en nuestro país. Nuestra actual Junta Directiva,
-            elegida para el periodo 2022-2024, trabaja incansablemente para
-            promover la excelencia en la práctica clínica, la investigación y la
-            educación en gastroenterología.
-          </p>
+          <Fade triggerOnce direction="up">
+            <h2 className="text-3xl lg:text-4xl text-white font-bold tracking-widest mb-10 text-center md:text-start">
+              Junta directiva 2022-2024
+            </h2>
+          </Fade>
+          <Fade triggerOnce direction="up">
+            <p className="text-lg text-white text-justify md:px-5 lg:px-20 mb-10">
+              La Sociedad Venezolana de Gastroenterología está liderada por un
+              equipo de profesionales comprometidos con el avance de la
+              especialidad en nuestro país. Nuestra actual Junta Directiva,
+              elegida para el periodo 2022-2024, trabaja incansablemente para
+              promover la excelencia en la práctica clínica, la investigación y
+              la educación en gastroenterología.
+            </p>
+          </Fade>
           <div className="h-[60px] flex items-end">
             <a
               href="#"

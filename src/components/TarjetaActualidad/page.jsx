@@ -22,9 +22,9 @@ export default function TarjetaActualidad() {
         <p className="">
           Le invitamos a conocer la información más importante sobre este...
         </p>
-        <a href="#" className="absolute bottom-3 text-[#1630BE] font-bold">
+        <p className="absolute bottom-3 text-[#1630BE] font-bold">
           Leer mas {">>"}
-        </a>
+        </p>
       </div>
     </a>
   );
