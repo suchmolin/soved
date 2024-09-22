@@ -22,8 +22,8 @@ export default function InvitamosHome() {
         layout="fill"
         alt="invitamos"
       />
-      <div className="w-5/12 flex flex-col justify-center ml-20">
-        <h2 className="sombraTexto text-7xl text-white drop-shadow-xl font-bold">
+      <div className="md:w-8/12 lg:w-6/12 flex flex-col justify-center ml-10 sm:ml-20">
+        <h2 className="sombraTexto text-5xl sm:text-7xl text-white drop-shadow-xl font-bold">
           Le invitamos a publicar en la revista GEN
         </h2>
         <div className="h-[80px] flex items-end z-10">

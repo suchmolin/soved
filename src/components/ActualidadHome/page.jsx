@@ -6,7 +6,7 @@ export default function ActualidadHome() {
       <h2 className="text-[#1630BE] text-4xl text-center mb-10 font-bold">
         Actualidad SOVED 2024
       </h2>
-      <div className="w-full flex gap-5 justify-center items-center">
+      <div className="w-full flex gap-5 justify-center items-center flex-wrap lg:flex-nowrap">
         <TarjetaActualidad />
         <TarjetaActualidad />
         <TarjetaActualidad />

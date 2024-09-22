@@ -20,6 +20,8 @@ export default function Home() {
       <ActualidadHome />
       <VisitaInstagram />
       <FooterHome />
+      {/*
+       */}
     </main>
   );
 }

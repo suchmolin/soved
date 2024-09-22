@@ -1,17 +1,21 @@
+"use client";
 import Link from "next/link";
 import { CiMail } from "react-icons/ci";
 import { IoLogoInstagram } from "react-icons/io5";
 import { FaYoutube } from "react-icons/fa";
+import { Dropdown } from "flowbite-react";
+import { IoMenu } from "react-icons/io5";
 
 export default function NavBar() {
+  const menuResp = <IoMenu className="text-3xl" />;
   return (
     <>
-      <nav className="relative w-full h-[80px] flex justify-between items-center shadow-md bg-[#1630BE] text-white">
-        <p className="flex gap-2 px-10 items-center">
+      <nav className="relative w-full h-[100px] sm:h-[80px] flex flex-col sm:flex-row sm:justify-between items-center shadow-md bg-[#1630BE] text-white">
+        <p className="flex gap-2 sm:px-10 justify-center sm:justify-start items-center text-sm py-3 sm:py-0 text-center sm:text-start">
           <CiMail />
           info@jpyeventos.com ☎ 0212 - 7611939 – 0424 - 2600460{" "}
         </p>
-        <ul className="h-full flex gap-7 justify-center items-center px-10 text-lg pt-1">
+        <ul className="h-full hidden lg:flex gap-7 justify-center items-center px-10 xl:text-lg pt-1">
           <li className="hover:bg-[#00b1ab] h-full flex items-center px-4">
             <Link href="#">Inicio</Link>
           </li>
@@ -25,7 +29,19 @@ export default function NavBar() {
             <Link href="#">Contacto</Link>
           </li>
         </ul>
-        <div className="flex gap-5 px-10 text-2xl">
+        <div className="flex gap-5 px-10 text-2xl items-center">
+          <div className="block lg:hidden">
+            <Dropdown
+              label={menuResp}
+              inline
+              className=" bg-[#1630BE] text-white"
+            >
+              <Dropdown.Item className="text-white">Inicio</Dropdown.Item>
+              <Dropdown.Item className="text-white">SOVED</Dropdown.Item>
+              <Dropdown.Item className="text-white">Membresía</Dropdown.Item>
+              <Dropdown.Item className="text-white">Contacto</Dropdown.Item>
+            </Dropdown>
+          </div>
           <a
             href="https://www.instagram.com/soved_oficial?igsh=MTR6YnRyZWVrdGx6eQ=="
             className="hover:scale-110 transition-all duration-300"

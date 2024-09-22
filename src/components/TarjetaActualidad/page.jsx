@@ -4,7 +4,7 @@ export default function TarjetaActualidad() {
   return (
     <a
       href="#"
-      className="relative w-[330px] min-h-[570px] rounded-xl overflow-hidden flex flex-col bg-white shadow-2xl hover:scale-[102%] transition-all duration-300"
+      className="relative w-[300px] min-h-[550px] rounded-xl overflow-hidden flex flex-col bg-white shadow-2xl hover:scale-[102%] transition-all duration-300"
     >
       <div className="relative w-full aspect-square">
         <Image
