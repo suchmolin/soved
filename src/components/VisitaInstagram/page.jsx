@@ -8,7 +8,7 @@ export default function VisitaInstagram() {
         <div className="relative flex gap-4 ">
           <a
             href="#"
-            className="relative w-[200px] h-[200px] hover:scale-[102%] transition-all duration-300 rounded-xl overflow-hidden"
+            className="relative w-[180px] h-[180px] hover:scale-[102%] transition-all duration-300 rounded-xl overflow-hidden"
           >
             <Image
               src="/img/instagram1.jpg"
@@ -20,7 +20,7 @@ export default function VisitaInstagram() {
           </a>
           <a
             href="#"
-            className="relative w-[200px] h-[200px] hover:scale-[102%] transition-all duration-300 rounded-xl overflow-hidden mt-10"
+            className="relative w-[180px] h-[180px] hover:scale-[102%] transition-all duration-300 rounded-xl overflow-hidden mt-10"
           >
             <Image
               src="/img/instagram2.jpg"
@@ -34,7 +34,7 @@ export default function VisitaInstagram() {
         <div className="relative flex gap-4">
           <a
             href="#"
-            className="relative w-[200px] h-[200px] hover:scale-[102%] transition-all duration-300 rounded-xl overflow-hidden"
+            className="relative w-[180px] h-[180px] hover:scale-[102%] transition-all duration-300 rounded-xl overflow-hidden"
           >
             <Image
               src="/img/instagram3.jpg"
@@ -46,7 +46,7 @@ export default function VisitaInstagram() {
           </a>
           <a
             href="#"
-            className="relative w-[200px] h-[200px] hover:scale-[102%] transition-all duration-300 rounded-xl overflow-hidden mt-10"
+            className="relative w-[180px] h-[180px] hover:scale-[102%] transition-all duration-300 rounded-xl overflow-hidden mt-10"
           >
             <Image
               src="/img/instagram4.jpg"
@@ -60,7 +60,7 @@ export default function VisitaInstagram() {
         <div className="relative flex gap-4">
           <a
             href="#"
-            className="relative w-[200px] h-[200px] hover:scale-[102%] transition-all duration-300 rounded-xl overflow-hidden"
+            className="relative w-[180px] h-[180px] hover:scale-[102%] transition-all duration-300 rounded-xl overflow-hidden"
           >
             <Image
               src="/img/instagram3.jpg"
@@ -72,7 +72,7 @@ export default function VisitaInstagram() {
           </a>
           <a
             href="#"
-            className="relative w-[200px] h-[200px] hover:scale-[102%] transition-all duration-300 rounded-xl overflow-hidden mt-10"
+            className="relative w-[180px] h-[180px] hover:scale-[102%] transition-all duration-300 rounded-xl overflow-hidden mt-10"
           >
             <Image
               src="/img/instagram4.jpg"
