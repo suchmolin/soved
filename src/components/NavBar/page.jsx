@@ -17,10 +17,10 @@ export default function NavBar() {
         </p>
         <ul className="h-full hidden lg:flex gap-7 justify-center items-center px-10 xl:text-lg pt-1">
           <li className="hover:bg-[#00b1ab] h-full flex items-center px-4">
-            <Link href="#">Inicio</Link>
+            <Link href="/">Inicio</Link>
           </li>
           <li className="hover:bg-[#00b1ab] h-full flex items-center px-4">
-            <Link href="#">SOVED</Link>
+            <Link href="/soved">SOVED</Link>
           </li>
           <li className="hover:bg-[#00b1ab] h-full flex items-center px-4">
             <Link href="#">Membresía</Link>

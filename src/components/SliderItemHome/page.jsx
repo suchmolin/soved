@@ -28,6 +28,9 @@ export default function SliderItemHome({ bg }) {
         <Bounce direction="left" triggerOnce className="absolute top-10 left-0">
           <FaPlus className="hidden sm:block text-8xl text-[#1630BE]/40" />
         </Bounce>
+        <Fade direction="up" triggerOnce className="absolute top-40 right-0 ">
+          <FaPlus className="hidden sm:block text-5xl text-[#1630BE]" />
+        </Fade>
       </div>
     </div>
   );
