@@ -55,7 +55,7 @@ export default function Eventos2008() {
             </div>
             <div className="w-[400px] h-[250px] relative ">
               <Image
-                src="/img/imagen1.jpg"
+                src="/img/estomagos.jpg"
                 objectFit="contain"
                 layout="fill"
                 alt="primer evento"
