@@ -6,7 +6,7 @@ import HeaderHome from "@/components/HeaderHome/page";
 import InvitamosHome from "@/components/InvitamosHome/page";
 import JuntaHome from "@/components/JuntaHome/page";
 import NavBar from "@/components/NavBar/page";
-import SocialMenu from "@/components/SocialMenu/page";
+
 import VisitaInstagram from "@/components/VisitaInstagram/page";
 
 export default function Home() {
@@ -20,7 +20,7 @@ export default function Home() {
       <InvitamosHome />
       <ActualidadHome />
       <VisitaInstagram />
-      <SocialMenu />
+
       <FooterHome />
       {/*
        */}
