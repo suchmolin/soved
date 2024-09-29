@@ -16,13 +16,13 @@ export default function TarjetaActualidad() {
         />
       </div>
       <div className="flex flex-col justify-center px-5 py-5 ">
-        <h3 className="text-start text-3xl text-[#1630BE] font-bold mb-5">
+        <h3 className="text-start text-3xl text-[#0315ae] font-bold mb-5">
           Ruta al Congreso SOVED 2024
         </h3>
         <p className="">
           Le invitamos a conocer la información más importante sobre este...
         </p>
-        <p className="absolute bottom-3 text-[#1630BE] font-bold">
+        <p className="absolute bottom-3 text-[#0315ae] font-bold">
           Leer mas {">>"}
         </p>
       </div>

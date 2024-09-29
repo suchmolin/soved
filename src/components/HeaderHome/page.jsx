@@ -5,10 +5,16 @@ import SliderItemHome from "../SliderItemHome/page";
 
 export default function HeaderHome() {
   return (
-    <div className="w-full h-[700px] pt-2">
+    <div className="w-full h-[700px]">
       <Carousel>
-        <SliderItemHome bg="bg-[url('/img/headerHome.jpg')]" />
-        <SliderItemHome bg="bg-[url('/img/headerHome2.jpg')]" />
+        <SliderItemHome
+          bg="bg-[url('/img/curso-endoscopia-via-digestiva-1.jpg')]"
+          titulo="SOVED"
+          titulo2="SOMOS TODOS"
+          titulo3="Le damos la bienvenida al sitio oficial de la Sociedad venezolana de Endoscopia Digestiva SOVED"
+          boton="Conoce más"
+          href="/soved"
+        />
       </Carousel>
     </div>
   );

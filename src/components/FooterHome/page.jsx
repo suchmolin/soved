@@ -1,6 +1,6 @@
 export default function FooterHome() {
   return (
-    <div className="w-full h-[100px] bg-[#1630BE] text-white flex flex-col items-center justify-center">
+    <div className="absolute bottom-0 w-full h-[100px] bg-[#0315ae] text-white flex flex-col items-center justify-center">
       <h2 className="text-xs sm:text-xl">
         Copyright © 2024 Sociedad Venezolana de Ensocopia Digestiva
       </h2>

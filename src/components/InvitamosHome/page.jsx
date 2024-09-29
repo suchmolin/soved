@@ -30,7 +30,7 @@ export default function InvitamosHome() {
         <div className="h-[80px] flex items-end z-10">
           <a
             href="#"
-            className="py-3 px-7 rounded-full bg-[#1630BE] text-white text-xl w-fit hover:shadow-xl hover:mb-3 hover:bg-[#1630BE]/90 transition-all duration-300"
+            className="py-3 px-7 rounded-full bg-[#0315ae] text-white text-xl w-fit hover:shadow-xl hover:mb-3 hover:bg-[#0315ae]/90 transition-all duration-300"
           >
             Más informacion
           </a>

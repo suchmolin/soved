@@ -8,7 +8,7 @@ export default function NuestraHistoriaSoves() {
       <div className="w-10/12 flex gap-10  justify-center">
         <Fade direction="left" triggerOnce className="w-4/12">
           <div className="flex flex-col">
-            <h2 className="text-3xl text-center text-[#1630BE] mb-3 font-bold">
+            <h2 className="text-3xl text-center text-[#0315ae] mb-3 font-bold">
               Misión
             </h2>
             <p className="text-justify">
@@ -32,7 +32,7 @@ export default function NuestraHistoriaSoves() {
         </div>
         <Fade direction="right" triggerOnce className="w-4/12">
           <div className=" flex flex-col">
-            <h2 className="text-3xl text-center text-[#1630BE] mb-3 font-bold">
+            <h2 className="text-3xl text-center text-[#0315ae] mb-3 font-bold">
               Visión
             </h2>
             <p className="text-justify">

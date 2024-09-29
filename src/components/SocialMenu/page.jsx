@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function SocialMenu() {
   return (
-    <div className="fixed bottom-5 right-2 flex flex-col gap-2 items-center justify-center">
+    <div className="fixed bottom-5 right-2 flex flex-col gap-2 items-center justify-center z-50">
       <a
         href="https://www.youtube.com/channel/UCW24NwkA_8_8VJYxgYCLV1w"
         className="rounded-full shadow-2xl bg-white/50 p-2 hover:scale-105 transition-all duration-300"

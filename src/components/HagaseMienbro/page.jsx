@@ -20,8 +20,8 @@ export default function HagaseMienbro() {
       <div className="w-10/12 flex flex-col md:flex-row justify-center items-center">
         <div className="md:w-6/12 flex flex-col justify-center">
           <Fade triggerOnce direction="up">
-            <h2 className="text-[#1630BE] text-4xl lg:text-5xl font-bold sm:pl-10 xl:pr-36 mb-20">
-              Hágase miembro de la SVG y disfrute de sus beneficios
+            <h2 className="text-[#0315ae] text-4xl lg:text-5xl font-bold sm:pl-10 xl:pr-36 mb-20">
+              Hágase miembro de la SOVED y disfrute de sus beneficios
             </h2>
           </Fade>
           <p className="text-xl sm:pr-20 sm:pl-10 text-gray-600 text-justify mb-10">
@@ -32,23 +32,23 @@ export default function HagaseMienbro() {
           <ul className="text-xl text-gray-600 sm:pl-10 mb-10">
             <li className="flex gap-2 items-center">
               {" "}
-              <FaCheck className="text-[#1630BE]" /> Artículos de interés
+              <FaCheck className="text-[#0315ae]" /> Artículos de interés
             </li>
             <li className="flex gap-2 items-center">
               {" "}
-              <FaCheck className="text-[#1630BE]" />
+              <FaCheck className="text-[#0315ae]" />
               Descuentos especiales para eventos
             </li>
             <li className="flex gap-2 items-center">
               {" "}
-              <FaCheck className="text-[#1630BE]" />
+              <FaCheck className="text-[#0315ae]" />
               Descuentos especiales para eventos
             </li>
           </ul>
           <div className="h-[60px] flex items-end justify-center sm:justify-start sm:pl-10">
             <a
               href="#"
-              className="py-3 px-7 rounded-full bg-[#1630BE] text-white text-xs sm:text-base w-fit hover:shadow-xl hover:mb-3 hover:bg-[#1630BE]/90 transition-all duration-300"
+              className="py-3 px-7 rounded-full bg-[#0315ae] text-white text-xs sm:text-base w-fit hover:shadow-xl hover:mb-3 hover:bg-[#0315ae]/90 transition-all duration-300"
             >
               MÁS INFORMACIÓN SOBRE MEMBRESÍAS
             </a>

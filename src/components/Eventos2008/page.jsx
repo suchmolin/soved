@@ -4,7 +4,7 @@ export default function Eventos2008() {
   return (
     <div className="w-full pt-10 flex justify-center">
       <div className="w-10/12 pb-20 border-b border-gray-300">
-        <h2 className="text-5xl text-center text-[#1630BE] mb-10 font-bold">
+        <h2 className="text-5xl text-center text-[#0315ae] mb-10 font-bold">
           PRIMEROS EVENTOS 2008
         </h2>
         <div className="flex w-full gap-5">
