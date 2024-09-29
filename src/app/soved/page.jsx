@@ -28,6 +28,9 @@ export default function SovedPage() {
             enseñanza, vivir vigorosamente el presente y asomarnos al futuro con
             esperanza”
           </h2>
+          <h3 className="text-4xl text-center text-[#0315ae] font-bold">
+            Dra. Rosa Rangel Pérez
+          </h3>
         </div>
       </div>
       <PastPresidents />

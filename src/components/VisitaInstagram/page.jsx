@@ -27,7 +27,7 @@ export default function VisitaInstagram() {
           <a
             key={`isntagramPost${index}`}
             href={post.href}
-            className="relative w-[300px] h-[380px] rounded-lg overflow-hidden hover:scale-105 duration-300 transition-all"
+            className="relative w-[280px] h-[360px] rounded-lg overflow-hidden hover:scale-105 duration-300 transition-all"
           >
             <Image
               src={post.img}
