@@ -1,5 +1,6 @@
 import ActualidadHome from "@/components/ActualidadHome/page";
 import AliadosComerciales from "@/components/AliadosComerciales/page";
+import CardSliderHome from "@/components/CardSliderHome/page";
 import Conozcamas from "@/components/Conozcamas/page";
 
 import HagaseMienbro from "@/components/HagaseMienbro/page";
@@ -13,6 +14,7 @@ export default function Home() {
   return (
     <main className="font-[Roboto]">
       <HeaderHome />
+      <CardSliderHome />
       <Conozcamas />
       <JuntaHome />
       <HagaseMienbro />

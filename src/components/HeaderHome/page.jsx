@@ -6,7 +6,7 @@ import SliderItemHome from "../SliderItemHome/page";
 export default function HeaderHome() {
   return (
     <div className="w-full h-[700px]">
-      <Carousel>
+      <Carousel className="-mt-2" pauseOnHover>
         <SliderItemHome
           bg="bg-[url('/img/curso-endoscopia-via-digestiva-1.jpg')]"
           titulo="SOVED"

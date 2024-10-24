@@ -12,7 +12,7 @@ export default function NavBar() {
   const menuResp = <IoMenu className="text-3xl" />;
   return (
     <>
-      <nav className="relative w-full h-[100px] sm:h-[80px] flex flex-col sm:flex-row sm:justify-between items-center shadow-md bg-[#0315ae] text-white pb-1">
+      <nav className="relative w-full h-[100px] sm:h-[80px] flex flex-col sm:flex-row sm:justify-between items-center shadow-md bg-[#0315ae] text-white pb-1 z-50">
         <div className="flex items-center justify-center">
           <p className="flex gap-2 px-5 justify-center sm:justify-start items-center text-sm py-3 sm:py-0 text-center sm:text-start">
             <CiMail className="text-2xl" />

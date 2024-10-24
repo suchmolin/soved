@@ -45,6 +45,20 @@ export default function SocialMenu() {
           />
         </div>
       </a>
+      <a
+        href="https://x.com/soved_oficial"
+        className="rounded-full shadow-2xl bg-white/50 p-2 hover:scale-105 transition-all duration-300"
+        aria-label="youtube icon"
+      >
+        <div className="relative w-[35px] aspect-square">
+          <Image
+            src="/img/x.png"
+            objectFit="contain"
+            layout="fill"
+            alt="x icon"
+          />
+        </div>
+      </a>
     </div>
   );
 }
