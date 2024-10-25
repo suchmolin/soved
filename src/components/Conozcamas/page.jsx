@@ -36,7 +36,7 @@ export default function Conozcamas() {
           </Fade>
           <div className="h-[60px] flex items-end justify-center md:justify-start">
             <a
-              href="#"
+              href="/soved"
               className="py-3 px-7 rounded-full bg-[#0315ae] text-white text-xl w-fit hover:shadow-xl hover:mb-3 hover:bg-[#0315ae]/90 transition-all duration-300"
             >
               SABER MÁS

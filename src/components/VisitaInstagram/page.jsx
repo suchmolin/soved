@@ -20,7 +20,7 @@ export default function VisitaInstagram() {
     },
   ];
   return (
-    <div className=" w-full min-h-[500px] bg-[#e9eff9] px-5 pb-10">
+    <div className=" w-full min-h-[500px] bg-[#e9eff9] px-5 py-10">
       <h2 className="text-[#0315ae] text-6xl text-center mb-20">Instagram</h2>
       <div className="w-full flex gap-4 justify-center flex-wrap">
         {posts.map((post, index) => (

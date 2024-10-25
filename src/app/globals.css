@@ -7,6 +7,9 @@
   font-family: 'Roboto';
   src: url('fonts/Roboto-Regular.ttf');
 }
+*{
+  scroll-behavior: smooth;
+}
 
 .custom-shape-divider-top-1726626453 {
   position: absolute;

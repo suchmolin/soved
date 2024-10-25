@@ -18,9 +18,10 @@ export default function Home() {
       <Conozcamas />
       <JuntaHome />
       <HagaseMienbro />
-      <InvitamosHome />
       <AliadosComerciales />
-      {/*<ActualidadHome />*/}
+      {/*
+      <InvitamosHome />
+      <ActualidadHome />*/}
 
       <VisitaInstagram />
 

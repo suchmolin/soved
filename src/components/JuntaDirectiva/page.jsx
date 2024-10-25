@@ -2,15 +2,36 @@ import Image from "next/image";
 
 export default function JuntaDirectiva() {
   const data = [
-    { img: "/img/perfil.jpg", name: "doctor", cargo: "Presidente" },
-    { img: "/img/perfil.jpg", name: "doctora", cargo: "Tesorera" },
-    { img: "/img/perfil.jpg", name: "doctor", cargo: "Secretario" },
-    { img: "/img/perfil.jpg", name: "doctora", cargo: "Directiva" },
-    { img: "/img/perfil.jpg", name: "doctor", cargo: "Directiva" },
-    { img: "/img/perfil.jpg", name: "doctora", cargo: "Directiva" },
+    { img: "/img/perfil.jpg", name: "Dr. Víctor Bracho", cargo: "Presidente" },
+    {
+      img: "/img/perfil.jpg",
+      name: "Dr. Jacobo Dib",
+      cargo: "Vice-Presidente",
+    },
+    { img: "/img/perfil.jpg", name: "Dra. Alba Fonseca", cargo: "Secretaria" },
+    { img: "/img/perfil.jpg", name: "Dra. Eddy Barroso", cargo: "Tesorera " },
+    { img: "/img/perfil.jpg", name: "Dr. Pedro Francis", cargo: "Vocal 1" },
+    { img: "/img/perfil.jpg", name: "Dr. Rubén K. Naddaf", cargo: "Vocal 2" },
+    {
+      img: "/img/perfil.jpg",
+      name: "Dra. Rosalba Casanova",
+      cargo: "Coordinadora de la Sección de Intestino Delgado",
+    },
+    {
+      img: "/img/perfil.jpg",
+      name: "Dr. Alejandro Bethelmy",
+      cargo: "Coordinadora de la Sección de Ultrasonidos Endoscópicos",
+    },
+    {
+      img: "/img/perfil.jpg",
+      name: "Dra. Yuraima Montilla",
+      cargo: "Comité Asesor",
+    },
+    { img: "/img/perfil.jpg", name: "Dr. Raúl Monserrat" },
+    { img: "/img/perfil.jpg", name: "Dr. José Di Giorgio" },
   ];
   return (
-    <div className="w-full pt-10 flex justify-center">
+    <div id="juntaDirectivaActual" className="w-full pt-10 flex justify-center">
       <div className="w-10/12 pb-20 border-b border-gray-300 flex flex-col items-center">
         <h2 className="text-5xl text-center text-[#0315ae] mb-10 font-bold">
           Junta Directiva
@@ -27,10 +48,14 @@ export default function JuntaDirectiva() {
                     alt="president"
                   />
                 </div>
-                <p className="text-gray-600">
-                  {item.cargo} de la Sociedad Venezolana de Endoscopia Digestiva{" "}
-                  <br /> 2024 - 2026
-                </p>
+                <p className="text-gray-600">{item.name}</p>
+                {item.cargo && (
+                  <p className="text-gray-600">
+                    {item.cargo} de la Sociedad Venezolana de Endoscopia
+                    Digestiva{" "}
+                  </p>
+                )}
+                <p className="text-gray-600">2024 - 2026</p>
               </div>
             </div>
           ))}

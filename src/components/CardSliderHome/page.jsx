@@ -33,7 +33,7 @@ export default function CardSliderHome() {
       href: "https://www.videogie.org/",
     },
     {
-      img: "saberucv.jpeg",
+      img: "saberucv.png",
       titulo: "Saber UCV",
       href: "http://saber.ucv.ve/ojs/index.php/rev_gen/issue/view/2929",
     },
@@ -72,6 +72,7 @@ export default function CardSliderHome() {
           {data.map((item) => (
             <div key={item.titulo} className="p-2">
               <a
+                target="_blank"
                 href={item.href}
                 className="flex flex-col items-center justify-center "
               >

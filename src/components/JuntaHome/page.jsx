@@ -20,9 +20,9 @@ export default function JuntaHome() {
       </div>
       <div className="w-10/12 flex flex-col md:flex-row justify-center items-center">
         <div className="md:w-5/12 h-full flex items-center pt-20">
-          <div className="relative w-[300px] md:w-[400px] aspect-square rounded-full border-8 border-white">
+          <div className="relative w-[300px] md:w-[400px] aspect-square rounded-full ">
             <Image
-              src="/img/sovedlogo.png"
+              src="/img/sovedlogo1.png"
               layout="fill"
               objectFit="cover"
               alt="junta directiva"
@@ -47,7 +47,7 @@ export default function JuntaHome() {
           </Fade>
           <div className="h-[60px] flex items-end">
             <a
-              href="#"
+              href="/soved#juntaDirectivaActual"
               className="py-3 px-7 rounded-full bg-white shadow-md shadow-red-400 text-[#0315ae] text-base w-fit hover:shadow-lg hover:mb-3 hover:bg-[#00b1ab]/90 transition-all duration-300 font-bold text-center"
             >
               MÁS INFORMACION SOBRE LA JUNTA DIRECTIVA 2024-2026
