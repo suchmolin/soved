@@ -22,7 +22,7 @@ export default function JuntaHome() {
         <div className="md:w-5/12 h-full flex items-center pt-20">
           <div className="relative w-[300px] md:w-[400px] aspect-square rounded-full ">
             <Image
-              src="/img/sovedlogo1.png"
+              src="/img/sovedlogo.png"
               layout="fill"
               objectFit="cover"
               alt="junta directiva"
